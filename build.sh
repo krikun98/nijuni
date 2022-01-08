@@ -11,8 +11,8 @@ do
 	do
 		short_option="$(basename "$option")"
 		file="$(find $option -type f -name '*.kicad_pcb')"
-		${container_cmd} yaqwsx/kikit:nightly pcbdraw --style builtin:set-black-hasl.json "$file" images/"$name"_"$short_option".png >> /dev/null
-		${container_cmd} yaqwsx/kikit:nightly pcbdraw --style builtin:set-black-hasl.json --back "$file" images/"$name"_"$short_option"_back.png >> /dev/null
+		${container_cmd} yaqwsx/kikit:nightly pcbdraw --style builtin:set-blue-enig.json "$file" images/"$name"_"$short_option".png >> /dev/null
+		${container_cmd} yaqwsx/kikit:nightly pcbdraw --style builtin:set-blue-enig.json --back "$file" images/"$name"_"$short_option"_back.png >> /dev/null
 	done
 done
 
