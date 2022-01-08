@@ -39,6 +39,8 @@ do
 	done
 done
 
+zip -jr gerbers/case/gerber_case_files gerbers/case/
+
 # Plate/bottom dxf files
 echo "Generating case DXF files"
 mkdir -p dxf
