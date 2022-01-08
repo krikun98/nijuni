@@ -1,12 +1,15 @@
 # Nijuni
 
-![](pictures/wireless.jpeg)
+[![Nijuni 0.1](pictures/wireless.jpeg)](https://youtu.be/l4cOGjHJ7nU "Nijuni 0.1")
 
 The Nijuni (formerly known as the RT-22) is a 44-key split keyboard inspired by the [Jian](https://github.com/KGOH/Jian-Info) (stagger, pinky and controller footprint) and the 
 [Jorne](https://github.com/joric/jorne) (thumb cluster and wiring).
 
 It was originally conceived by [DwarZ](https://t.me/rafworksintl), however, V0.1 had a screw placement issue that restricted it to Kailh BOX-style switches.
 V0.2 is trouble-free, and prototypes have already been tested.
+
+The image above depicts V0.1, and power switch hacks are no longer necessary.
+It also links to a typing video.
 
 ## Features
 
