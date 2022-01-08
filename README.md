@@ -1,5 +1,7 @@
 # Nijuni
 
+![](pictures/wireless.jpeg)
+
 The Nijuni (formerly known as the RT-22) is a 44-key split keyboard inspired by the [Jian](https://github.com/KGOH/Jian-Info) (stagger, pinky and controller footprint) and the 
 [Jorne](https://github.com/joric/jorne) (thumb cluster and wiring).
 
