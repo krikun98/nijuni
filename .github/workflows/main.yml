@@ -89,7 +89,7 @@ jobs:
      - uses: actions/download-artifact@master
        with:
          name: Nijuni_pcb_gerbers
-         path: gerbers
+         path: gerbers/pcb
      - id: setmatrix
        run: |
          matrixArray=$(find ./gerbers/pcb -name '*.zip' | xargs -n 1 -i echo {} {} | sed 's# .*/# #') # Creates array of all PCB gerber files
