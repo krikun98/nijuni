@@ -105,7 +105,7 @@ jobs:
     
   upload_pcb_gerbers:
     runs-on: ubuntu-latest
-    name: Upload gerbers
+    name: Upload PCB gerbers
     needs: [generate, gerber_matrix]
     strategy:
         matrix: ${{fromJson(needs.gerber_matrix.outputs.matrix)}}
@@ -113,7 +113,7 @@ jobs:
       - uses: actions/download-artifact@master
         with:
           name: Nijuni_pcb_gerbers
-          path: gerbers
+          path: gerbers/pcb
       - name: Gets latest created release info
         id: latest_release_info
         uses: jossef/action-latest-release-info@v1.1.0
