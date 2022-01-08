@@ -11,8 +11,6 @@ _autosave-*
 *-save.pro
 *-save.kicad_pcb
 fp-info-cache
-fp-lib-table
-sym-lib-table
 *-bak
 
 # Autorouter
