@@ -20,7 +20,7 @@ It also links to a typing video.
 
 ## Download
 
-You can download Gerber and DXF files in the [releases section](https://github.com/krikun98/jorian840/releases).
+You can download Gerber and DXF files in the [releases section](https://github.com/krikun98/nijuni/releases).
 More images are also in Actions builds.
 
 ## Instructions
