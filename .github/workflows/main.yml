@@ -181,7 +181,7 @@ jobs:
           
   upload_gerber_case_files:
     runs-on: ubuntu-latest
-    name: Upload case DXF files
+    name: Upload case gerber files
     needs: generate
     steps:
       - uses: actions/download-artifact@master
