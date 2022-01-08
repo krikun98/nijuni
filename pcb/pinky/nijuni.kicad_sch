@@ -2211,7 +2211,7 @@
     (property "Value" "Conn_01x04" (id 1) (at 205.74 71.12 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Keyboard_Components:OLED_DISPLAY_128x32px_0.91in" (id 2) (at 200.66 71.12 0)
+    (property "Footprint" "kbd:OLED_v2" (id 2) (at 200.66 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 200.66 71.12 0)
@@ -3446,7 +3446,7 @@
     (uuid f9fbf65c-f051-44ca-8673-b33a76d41a04)
     (property "Reference" "J1" (id 0) (at 149.86 31.115 0))
     (property "Value" "MJ-4PP-9" (id 1) (at 149.86 33.655 0))
-    (property "Footprint" "Keyboard_Components:MJ-4PP-9" (id 2) (at 155.575 34.29 0)
+    (property "Footprint" "kbd:MJ-4PP-9" (id 2) (at 155.575 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 155.575 34.29 0)
@@ -3633,10 +3633,10 @@
       (reference "H9") (unit 1) (value "MountingHole") (footprint "kbd:M2-ClearanceHole")
     )
     (path "/f9fbf65c-f051-44ca-8673-b33a76d41a04"
-      (reference "J1") (unit 1) (value "MJ-4PP-9") (footprint "Keyboard_Components:MJ-4PP-9")
+      (reference "J1") (unit 1) (value "MJ-4PP-9") (footprint "kbd:MJ-4PP-9")
     )
     (path "/30e745fe-8230-4e5c-a866-5dee0c1db4aa"
-      (reference "J2") (unit 1) (value "Conn_01x04") (footprint "Keyboard_Components:OLED_DISPLAY_128x32px_0.91in")
+      (reference "J2") (unit 1) (value "Conn_01x04") (footprint "kbd:OLED_v2")
     )
     (path "/c376344d-3f87-44f7-ad86-714ee8048845"
       (reference "J3") (unit 1) (value "Conn_01x02_Female") (footprint "kbd:Battery_TH")

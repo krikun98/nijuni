@@ -11,6 +11,8 @@ _autosave-*
 *-save.pro
 *-save.kicad_pcb
 fp-info-cache
+fp-lib-table
+sym-lib-table
 *-bak
 
 # Autorouter
@@ -20,3 +22,7 @@ fp-info-cache
 gerbers/*
 dxf/*
 images/*
+
+# Unnecessary files
+plate/*/*.kicad_prl
+bottom/*/*.kicad_prl
