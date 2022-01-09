@@ -28,7 +28,7 @@ do
 	mkdir -p gerbers/"$prefix"
 	for option in "$name"/*/
 	do
-		if [[ "$name" == "plate" ]] && ! [[ "$option" =~ ^.*\/fr4.*$ ]]; then
+		if [[ "$name" == "plate" ]] && [[ "$option" =~ ^.*\/laser_plastic.*$ ]]; then # Solid bottoms/plates may be a choice
 			continue
 		fi
 		short_option="$(basename "$option")"
@@ -48,7 +48,7 @@ for name in "plate" "bottom"
 do
 for option in "$name"/*/
 	do
-		if [[ "$name" == "plate" ]] && [[ ! "$option" =~ ^.*\/laser.*$ ]]; then
+		if [[ ! "$option" =~ ^.*\/laser.*$ ]]; then
 			continue
 		fi
 		short_option="$(basename "$option")"
