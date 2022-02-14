@@ -56,7 +56,7 @@ front|back
 
 6-column version
 
-[IBOM](https://htmlpreview.github.io/?https://github.com/krikun98/nijuni/blob/main/pcb/solder/bom/ibom.html)
+[IBOM](https://htmlpreview.github.io/?https://github.com/krikun98/nijuni/blob/main/pcb/6col/bom/ibom.html)
 
 [gerbers](../../releases/latest/download/pcb_6col_gerbers.zip)
 
